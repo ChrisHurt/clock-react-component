@@ -1,0 +1,19 @@
+.clock-hand {
+    position: relative;
+    margin: 0 auto;
+    background-color: black;
+    transform-origin: bottom;
+    transition: transform 1s linear;
+    border-radius: 5px;
+    // transform: rotate(135deg);
+}
+.hour-hand {
+    top: 5vmin;
+}
+.minute-hand {
+    top: -18vmin;
+}
+.second-hand{
+    top: -42vmin;
+    background-color: red;
+}
